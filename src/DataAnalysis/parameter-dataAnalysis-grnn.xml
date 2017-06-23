@@ -1,0 +1,78 @@
+<?xml version="1.0"?>
+<parameter>
+	<DataAnalysis>
+	  <NumberOfDataSets>1</NumberOfDataSets>
+	  <NumberOfInputs>1</NumberOfInputs>
+	  <NumberOfOutputs>1</NumberOfOutputs>
+	  <ConfidenceThreshold>95</ConfidenceThreshold>
+	  <IsHeadPathNumbering>false</IsHeadPathNumbering>
+	  <DirectoryHeadPath>/home/yamauchi/work/ext-inc-ll/mgrnn</DirectoryHeadPath>
+	</DataAnalysis>
+	<ResultFileName>
+		<filename>/home/yamauchi/work/ext-inc-ll/mgrnn/lgrnn-error.dat</filename>
+	</ResultFileName>
+
+	<servo>
+	    <TestSampleHeadName>LGRNNerror</TestSampleHeadName>	   
+	   <NumberOfDatasets>50</NumberOfDatasets>
+	   <Token> </Token>
+	   <datatype>double</datatype>
+	   <NumberOfTestSamples>167</NumberOfTestSamples>
+	   <StepSize>1</StepSize>
+	   <Extention>.dat</Extention>
+	</servo>
+	<housing>
+		<TestSampleHeadName>LGRNNerror</TestSampleHeadName>	   
+	   <NumberOfDatasets>50</NumberOfDatasets>
+	   <Token> </Token>
+	   <datatype>double</datatype>
+	   <NumberOfTestSamples>507</NumberOfTestSamples>
+	   <StepSize>1</StepSize>
+	   <Extention>.dat</Extention>
+	</housing>
+	<cpu_performance>
+		<TestSampleHeadName>LGRNNerror</TestSampleHeadName>	   
+	   <NumberOfDatasets>50</NumberOfDatasets>
+	   <Token> </Token>
+	   <datatype>double</datatype>
+	   <NumberOfTestSamples>209</NumberOfTestSamples>
+	   <StepSize>1</StepSize>
+	   <Extention>.dat</Extention>
+	</cpu_performance>
+	<concrete>
+		<TestSampleHeadName>LGRNNerror</TestSampleHeadName>	   
+	   <NumberOfDatasets>50</NumberOfDatasets>
+	   <Token> </Token>
+	   <datatype>double</datatype>
+	   <NumberOfTestSamples>1030</NumberOfTestSamples>
+	   <StepSize>1</StepSize>
+	   <Extention>.dat</Extention>
+	</concrete>
+	<mpg>
+		<TestSampleHeadName>LGRNNerror</TestSampleHeadName>	   
+	   <NumberOfDatasets>50</NumberOfDatasets>
+	   <Token> </Token>
+	   <datatype>double</datatype>
+	   <NumberOfTestSamples>397</NumberOfTestSamples>
+	   <StepSize>1</StepSize>
+	   <Extention>.dat</Extention>
+	</mpg>
+	<hearta1>
+		<TestSampleHeadName>LGRNNerror</TestSampleHeadName>	   
+	   <NumberOfDatasets>50</NumberOfDatasets>
+	   <Token> </Token>
+	   <datatype>double</datatype>
+	   <NumberOfTestSamples>230</NumberOfTestSamples>
+	   <StepSize>1</StepSize>
+	   <Extention>.dat</Extention>
+	</hearta1>
+	<mackeyglass>
+	  <TestSampleHeadName>LGRNNerror</TestSampleHeadName>	   
+	   <NumberOfDatasets>10</NumberOfDatasets>
+	   <Token> </Token>
+	   <datatype>double</datatype>
+	   <NumberOfTestSamples>1000</NumberOfTestSamples>
+	   <StepSize>1</StepSize>
+	   <Extention>.dat</Extention>
+	</mackeyglass>
+</parameter>

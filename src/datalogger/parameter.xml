@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<parameter>
+<logfile1>
+   <filename>/home/yamauchi/work/ext-inc-ll/datalogger/log1.dat</filename>
+</logfile1>
+<logfile2>
+   <filename>/home/yamauchi/work/ext-inc-ll/datalogger/log2.dat</filename>
+</logfile2>
+</parameter>

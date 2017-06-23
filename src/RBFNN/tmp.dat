@@ -1,0 +1,8 @@
+	<WRBFNN>
+		<NumberOfInputs>1</NumberOfInputs>
+		<NumberOfOutputs>1</NumberOfOutputs>
+		<NumberOfHiddenUnits>100</NumberOfHiddenUnits>
+		<KMeansChangeThreshold>0.00000001</KMeansChangeThreshold>
+		<MinSigma>0.1</MinSigma>
+		<MaxSigma>2</MaxSigma>
+		<InitSigma>0.1</InitSigma></WRBFNN>

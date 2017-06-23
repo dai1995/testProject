@@ -1,0 +1,188 @@
+<?xml version="1.0"?>
+<parameter>
+	<Actor>
+		<UseSubstitution>false</UseSubstitution>
+		<UseModify>false</UseModify>
+		<UsePrune>false</UsePrune>
+		<UseIgnore>true</UseIgnore>
+		<DefaultVariance>0.1</DefaultVariance>
+		<ImportanceWeight4NewSample>100.0</ImportanceWeight4NewSample>
+		<VariableSigma>false</VariableSigma>
+		<NumberOfUpperLimitOfUnits>10</NumberOfUpperLimitOfUnits>
+		<IsEstimatedByCumulativeError>false</IsEstimatedByCumulativeError>
+	</Actor>
+
+	<ValueFunction>
+		<UseSubstitution>false</UseSubstitution>
+		<UseModify>false</UseModify>
+		<UsePrune>false</UsePrune>
+		<UseIgnore>true</UseIgnore>
+		<DefaultVariance>0.1</DefaultVariance>
+		<ImportanceWeight4NewSample>100.0</ImportanceWeight4NewSample>
+		<VariableSigma>false</VariableSigma>
+		<NumberOfUpperLimitOfUnits>10</NumberOfUpperLimitOfUnits>
+		<IsEstimatedByCumulativeError>false</IsEstimatedByCumulativeError>
+	</ValueFunction>
+
+	<logoutput>
+	    <filename>C:/Users/kazu123/log/tuika/AgentPoint-10-nu/AgentPoint</filename>
+	</logoutput>
+
+	<initoutput>
+	    <filename>C:/Users/kazu123/log/tuika/AgentPoint-10-nu/init_Point</filename>
+	</initoutput>
+	
+	<rewardoutput>
+	    <filename>C:/Users/kazu123/log/tuika/reward-10-nu/reward</filename>
+	</rewardoutput>
+	
+	<rewardaveoutput>
+	    <filename>C:/Users/kazu123/log/tuika/reward-10-nu/rewardave</filename>
+	</rewardaveoutput>
+	
+	<karneloutput>
+	    <filename>C:/Users/kazu123/log/tuika/kernel-10-nu/kernel</filename>
+	</karneloutput>
+
+	<Actor_inte>
+		<UseSubstitution>false</UseSubstitution>
+		<UseModify>false</UseModify>
+		<UsePrune>false</UsePrune>
+		<UseIgnore>true</UseIgnore>
+		<DefaultVariance>0.2</DefaultVariance>
+		<ImportanceWeight4NewSample>100.0</ImportanceWeight4NewSample>
+		<VariableSigma>false</VariableSigma>
+		<NumberOfUpperLimitOfUnits>50</NumberOfUpperLimitOfUnits>
+		<IsEstimatedByCumulativeError>false</IsEstimatedByCumulativeError>
+	</Actor_inte>
+	
+
+	
+	<ValueFunction_inte>
+		<UseSubstitution>false</UseSubstitution>
+		<UseModify>false</UseModify>
+		<UsePrune>false</UsePrune>
+		<UseIgnore>true</UseIgnore>
+		<DefaultVariance>0.2</DefaultVariance>
+		<ImportanceWeight4NewSample>100.0</ImportanceWeight4NewSample>
+		<VariableSigma>false</VariableSigma>
+		<NumberOfUpperLimitOfUnits>50</NumberOfUpperLimitOfUnits>
+		<IsEstimatedByCumulativeError>false</IsEstimatedByCumulativeError>
+	</ValueFunction_inte>
+	
+	<init>
+	  <NumberOfInputDim>6</NumberOfInputDim>
+	  <NumberOfOutputDim>0</NumberOfOutputDim>
+	  <NumberOfDatasets>1</NumberOfDatasets>
+	  <LearningSampleHeadName>C:/Users/kazu123/workspace/kato_Actor-CriticRS/src/ActorCritic_kato/sample</LearningSampleHeadName>
+	  <TestSampleFile>C:/Users/kazu123/workspace/kato_Actor-CriticRS/src/ActorCritic_kato/sample0.dat</TestSampleFile>
+	  <MaxDates>36</MaxDates>
+	  <Token> </Token>
+	  <datatype>double</datatype>
+	  <NumberOfPracticePerDay>1</NumberOfPracticePerDay>
+	  <NumberOfTestSamples>36</NumberOfTestSamples>
+	  <NumberOfLearningSamples>36</NumberOfLearningSamples>
+	  <StepSize>1</StepSize>
+	  <Extention>.dat</Extention>
+	</init>
+
+	<init_kai>
+	  <NumberOfInputDim>6</NumberOfInputDim>
+	  <NumberOfOutputDim>0</NumberOfOutputDim>
+	  <NumberOfDatasets>1</NumberOfDatasets>
+	  <LearningSampleHeadName>C:/Users/kazu123/workspace/kato_Actor-CriticRS/src/ActorCritic_kato/sample_kai</LearningSampleHeadName>
+	  <TestSampleFile>C:/Users/kazu123/workspace/kato_Actor-CriticRS/src/ActorCritic_kato/sample_kai0.dat</TestSampleFile>
+	  <MaxDates>25</MaxDates>
+	  <Token> </Token>
+	  <datatype>double</datatype>
+	  <NumberOfPracticePerDay>1</NumberOfPracticePerDay>
+	  <NumberOfTestSamples>25</NumberOfTestSamples>
+	  <NumberOfLearningSamples>25</NumberOfLearningSamples>
+	  <StepSize>1</StepSize>
+	  <Extention>.dat</Extention>
+	</init_kai>
+	
+	<initMC>
+	  <NumberOfInputDim>6</NumberOfInputDim>
+	  <NumberOfOutputDim>0</NumberOfOutputDim>
+	  <NumberOfDatasets>1</NumberOfDatasets>
+	  <LearningSampleHeadName>C:/Users/kazu123/workspace/kato_Actor-CriticRS/src/ActorCritic_kato/sampleMC</LearningSampleHeadName>
+	  <TestSampleFile>C:/Users/kazu123/workspace/kato_Actor-CriticRS/src/ActorCritic_kato/sampleMC0.dat</TestSampleFile>
+	  <MaxDates>285</MaxDates>
+	  <Token> </Token>
+	  <datatype>double</datatype>
+	  <NumberOfPracticePerDay>1</NumberOfPracticePerDay>
+	  <NumberOfTestSamples>285</NumberOfTestSamples>
+	  <NumberOfLearningSamples>285</NumberOfLearningSamples>
+	  <StepSize>1</StepSize>
+	  <Extention>.dat</Extention>
+	</initMC>
+	
+	<ActorSampleLoad>
+	  <NumberOfInputDim>6</NumberOfInputDim>
+	  <NumberOfOutputDim>0</NumberOfOutputDim>
+	  <NumberOfDatasets>1</NumberOfDatasets>
+	  <LearningSampleHeadName>C:/Users/kazu123/log/learningsample/ActorSample</LearningSampleHeadName>
+	  <TestSampleFile>C:/Users/kazu123/log/learningsample/ActorSample0.dat</TestSampleFile>
+	  <MaxDates>50</MaxDates>
+	  <Token> </Token>
+	  <datatype>double</datatype>
+	  <NumberOfPracticePerDay>1</NumberOfPracticePerDay>
+	  <NumberOfTestSamples>50</NumberOfTestSamples>
+	  <NumberOfLearningSamples>50</NumberOfLearningSamples>
+	  <StepSize>1</StepSize>
+	  <Extention>.dat</Extention>
+	</ActorSampleLoad>
+	
+	<CriticSampleLoad>
+	  <NumberOfInputDim>3</NumberOfInputDim>
+	  <NumberOfOutputDim>0</NumberOfOutputDim>
+	  <NumberOfDatasets>1</NumberOfDatasets>
+	  <LearningSampleHeadName>C:/Users/kazu123/log/learningsample/CriticSample</LearningSampleHeadName>
+	  <TestSampleFile>C:/Users/kazu123/log/learningsample/CriticSample0.dat</TestSampleFile>
+	  <MaxDates>50</MaxDates>
+	  <Token> </Token>
+	  <datatype>double</datatype>
+	  <NumberOfPracticePerDay>1</NumberOfPracticePerDay>
+	  <NumberOfTestSamples>50</NumberOfTestSamples>
+	  <NumberOfLearningSamples>50</NumberOfLearningSamples>
+	  <StepSize>1</StepSize>
+	  <Extention>.dat</Extention>
+	</CriticSampleLoad>
+	
+
+	
+
+	
+	<ActorSample>
+		<filename>C:/Users/kazu123/log/learningsample/ActorSample</filename>
+	</ActorSample>
+	
+	<CriticSample>
+		<filename>C:/Users/kazu123/log/learningsample/CriticSample</filename>
+	</CriticSample>
+	
+	<rewardaveoutput_inte>
+		<filename>C:/Users/kazu123/log/rewardaveoutput_inte/rewardaveoutput_inte</filename>
+	</rewardaveoutput_inte>
+	
+
+	
+	<LGRNNParameters>
+	    <filename>C:\Users\k.kazuyoshi\HOME\result\lgrnnparameter.dat</filename>
+	</LGRNNParameters>
+	
+	<VirtualData>
+	  <NumberOfInputDim>5</NumberOfInputDim>
+	  <NumberOfOutputDim>0</NumberOfOutputDim>
+	  <NumberOfDatasets>1</NumberOfDatasets><LearningSampleHeadName>C:\Users\k.kazuyoshi\HOME\workspace\FSS\src\ActorCritic\data</LearningSampleHeadName>
+	  <TestSampleFile>C:\Users\k.kazuyoshi\HOME\workspace\FSS\src\ActorCritic\data0.csv</TestSampleFile><MaxDates>100</MaxDates>
+	  <Token>,</Token>
+	  <datatype>double</datatype>
+	  <NumberOfPracticePerDay>1</NumberOfPracticePerDay>
+	  <NumberOfTestSamples>100</NumberOfTestSamples>
+	  <NumberOfLearningSamples>100</NumberOfLearningSamples>
+	  <StepSize>1</StepSize>
+	  <Extention>.csv</Extention></VirtualData>
+</parameter>
+

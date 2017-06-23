@@ -1,0 +1,286 @@
+<?xml version="1.0"?>
+<parameter>
+	<KernelPerceptronLRFU>
+		<DefaultVariance>0.05</DefaultVariance>
+		<UpperLimitOfHiddenUnits>10</UpperLimitOfHiddenUnits>
+		<CumulativeErrorEstimation>true</CumulativeErrorEstimation>
+	</KernelPerceptronLRFU>
+	<Projectron>
+		<DefaultVariance>1.0</DefaultVariance>
+		<UpperLimitOfHiddenUnits>5</UpperLimitOfHiddenUnits>
+		<CumulativeErrorEstimation>true</CumulativeErrorEstimation>
+		<LDThreshold>1.0</LDThreshold></Projectron>
+	<Forgetron4Regression>
+		<DefaultVariance>1.0</DefaultVariance>
+		<UpperLimitOfHiddenUnits>5</UpperLimitOfHiddenUnits>
+		<CumulativeErrorEstimation>true</CumulativeErrorEstimation>
+		</Forgetron4Regression>
+	<KernelPerceptronLRFU4Regression>
+		<DefaultVariance>1.0</DefaultVariance>
+		<UpperLimitOfHiddenUnits>5</UpperLimitOfHiddenUnits>
+		<CumulativeErrorEstimation>true</CumulativeErrorEstimation>
+		</KernelPerceptronLRFU4Regression>
+	<KernelPerceptronPDM>
+		<DefaultVariance>1.0</DefaultVariance>
+		<UpperLimitOfHiddenUnits>5</UpperLimitOfHiddenUnits>
+		<CumulativeErrorEstimation>true</CumulativeErrorEstimation>
+		<LDThreshold>0.45</LDThreshold></KernelPerceptronPDM>
+	<RandomKernelPerceptron>
+		<DefaultVariance>1.0</DefaultVariance>
+		<CumulativeErrorEstimation>true</CumulativeErrorEstimation>
+		<UpperLimitOfHiddenUnits>5</UpperLimitOfHiddenUnits>
+	</RandomKernelPerceptron>
+	<KernelPerceptron4RegressionSPRJ3>
+		<DefaultVariance>1.0</DefaultVariance>
+		<UsePseudoInverse>false</UsePseudoInverse>
+		<ErrThreshold>0.0</ErrThreshold>
+		<UseSoftProjection>true</UseSoftProjection>
+		<UseAdaptiveImportanceWeight>true</UseAdaptiveImportanceWeight>
+		<CumulativeErrorEstimation>true</CumulativeErrorEstimation>
+		<ImportanceWeightForNewSample>1</ImportanceWeightForNewSample>
+	</KernelPerceptron4RegressionSPRJ3>
+	<KernelPerceptron4RegressionWPROJ>
+		<DefaultVariance>1.0</DefaultVariance>
+		<UsePseudoInverse>false</UsePseudoInverse>
+		<ErrThreshold>0.0</ErrThreshold>
+		<UseSoftProjection>true</UseSoftProjection>
+		<UseAdaptiveImportanceWeight>true</UseAdaptiveImportanceWeight>
+		<CumulativeErrorEstimation>true</CumulativeErrorEstimation>
+		<ImportanceWeightForNewSample>1</ImportanceWeightForNewSample>
+	</KernelPerceptron4RegressionWPROJ>
+	
+	
+	<init>
+	  <NumberOfInputDim>6</NumberOfInputDim>
+	  <NumberOfOutputDim>0</NumberOfOutputDim>
+	  <NumberOfDatasets>1</NumberOfDatasets>
+	  <LearningSampleHeadName>C:/Users/kazu123/workspace/kato_Actor-Critic/src/ActorCritic_kato/sample</LearningSampleHeadName>
+	  <TestSampleFile>C:/Users/kazu123/workspace/kato_Actor-Critic/src/ActorCritic_kato/sample0.dat</TestSampleFile>
+	  <MaxDates>36</MaxDates>
+	  <Token> </Token>
+	  <datatype>double</datatype>
+	  <NumberOfPracticePerDay>1</NumberOfPracticePerDay>
+	  <NumberOfTestSamples>36</NumberOfTestSamples>
+	  <NumberOfLearningSamples>36</NumberOfLearningSamples>
+	  <StepSize>1</StepSize>
+	  <Extention>.dat</Extention>
+	</init>
+	
+	
+	<logoutput>
+	    <filename>C:/Users/kazu123/log/AgentPoint/AgentPoint</filename>
+	</logoutput>
+
+	<initoutput>
+	    <filename>C:/Users/kazu123/log/AgentPoint/init_Point</filename>
+	</initoutput>
+	
+	<rewardoutput>
+	    <filename>C:/Users/kazu123/log/reward/reward</filename>
+	</rewardoutput>
+	
+	<rewardaveoutput>
+	    <filename>C:/Users/kazu123/log/reward/rewardave</filename>
+	</rewardaveoutput>
+	
+	<karneloutput>
+	    <filename>C:/Users/kazu123/log/karnel/karnel</filename>
+	</karneloutput>
+	
+	<LGRNNParameters>
+	    <filename>C:\Users\k.kazuyoshi\HOME\result\lgrnnparameter.dat</filename>
+	</LGRNNParameters>
+	
+	
+	
+	
+	<LRAN>
+		  <AllocErrThreshold>0.1</AllocErrThreshold>
+		  <MinDistance>0.0001</MinDistance>
+		  <MaxDistance>0.3</MaxDistance>
+		  <learningSpeed>0.01</learningSpeed>
+		  <RatioOfOverlap>1</RatioOfOverlap>
+		  <InitCovValue>0.1</InitCovValue>
+		  <DecayRatioAllocDistance>0.001</DecayRatioAllocDistance>
+		  <DecayRatioMSE>0.001</DecayRatioMSE>
+		  <MSEAllocThreshold>0.01</MSEAllocThreshold>
+		  <contribution_threshold>0.3</contribution_threshold>
+		  <UseBiasTerm>false</UseBiasTerm>
+		  <CumulativeErrorEstimation>true</CumulativeErrorEstimation>
+		  <MaximumNumberOfHiddenUnits>10</MaximumNumberOfHiddenUnits>
+	</LRAN>
+	<CellNo>
+		<filename>/home/yamauchi/work/ext-inc-ll/KernelPerceptron/kp-projectronCellNo</filename></CellNo>
+	<ErrorOutput>
+	  <filename>KernelPerceptronErr</filename></ErrorOutput>
+	<testOut>
+	  <filename>NC</filename></testOut>
+	<servo>
+	  <NumberOfInputDim>12</NumberOfInputDim>
+	  <NumberOfOutputDim>1</NumberOfOutputDim>
+	  <NumberOfDatasets>50</NumberOfDatasets>
+	  <LearningSampleHeadName>/home/yamauchi/work/datasets/servo/test</LearningSampleHeadName>
+	  <TestSampleFile>/home/yamauchi/work/datasets/servo/test0.dat</TestSampleFile>
+	  <MaxDates>167</MaxDates>
+	  <Token> </Token>
+	  <datatype>double</datatype>
+	  <NumberOfPracticePerDay>1</NumberOfPracticePerDay>
+	  <NumberOfTestSamples>167</NumberOfTestSamples>
+	  <NumberOfLearningSamples>167</NumberOfLearningSamples>
+	  <StepSize>1</StepSize>
+	  <Extention>.dat</Extention></servo>
+	<servo_cluster>
+	  <NumberOfInputDim>12</NumberOfInputDim>
+	  <NumberOfOutputDim>1</NumberOfOutputDim>
+	  <NumberOfDatasets>50</NumberOfDatasets>
+	  <LearningSampleHeadName>/home/yamauchi/work/datasets/servo/testc</LearningSampleHeadName>
+	  <TestSampleFile>/home/yamauchi/work/datasets/servo/testc0.dat</TestSampleFile>
+	  <MaxDates>167</MaxDates>
+	  <Token> </Token>
+	  <datatype>double</datatype>
+	  <NumberOfPracticePerDay>1</NumberOfPracticePerDay>
+	  <NumberOfTestSamples>167</NumberOfTestSamples>
+	  <NumberOfLearningSamples>167</NumberOfLearningSamples>
+	  <StepSize>1</StepSize>
+	  <Extention>.dat</Extention></servo_cluster>
+	<housing>
+	  <NumberOfInputDim>13</NumberOfInputDim>
+	  <NumberOfOutputDim>1</NumberOfOutputDim>
+	  <NumberOfDatasets>50</NumberOfDatasets>
+	  <LearningSampleHeadName>/home/yamauchi/work/datasets/housing/test</LearningSampleHeadName>
+	  <TestSampleFile>/home/yamauchi/work/datasets/housing/test0.dat</TestSampleFile>
+	  <MaxDates>507</MaxDates>
+	  <Token> </Token>
+	  <datatype>double</datatype>
+	  <NumberOfPracticePerDay>1</NumberOfPracticePerDay>
+	  <NumberOfTestSamples>507</NumberOfTestSamples>
+	  <NumberOfLearningSamples>507</NumberOfLearningSamples>
+	  <StepSize>1</StepSize>
+	  <Extention>.dat</Extention></housing>
+	<housing_cluster>
+	  <NumberOfInputDim>13</NumberOfInputDim>
+	  <NumberOfOutputDim>1</NumberOfOutputDim>
+	  <NumberOfDatasets>50</NumberOfDatasets>
+	  <LearningSampleHeadName>/home/yamauchi/work/datasets/housing/testc</LearningSampleHeadName>
+	  <TestSampleFile>/home/yamauchi/work/datasets/housing/testc0.dat</TestSampleFile>
+	  <MaxDates>507</MaxDates>
+	  <Token> </Token>
+	  <datatype>double</datatype>
+	  <NumberOfPracticePerDay>1</NumberOfPracticePerDay>
+	  <NumberOfTestSamples>507</NumberOfTestSamples>
+	  <NumberOfLearningSamples>507</NumberOfLearningSamples>
+	  <StepSize>1</StepSize>
+	  <Extention>.dat</Extention></housing_cluster>
+	<mpg>
+	  <NumberOfInputDim>7</NumberOfInputDim>
+	  <NumberOfOutputDim>1</NumberOfOutputDim>
+	  <NumberOfDatasets>50</NumberOfDatasets>
+	  <LearningSampleHeadName>/home/yamauchi/work/datasets/mpg/test</LearningSampleHeadName>
+	  <TestSampleFile>/home/yamauchi/work/datasets/mpg/test0.dat</TestSampleFile>
+	  <MaxDates>397</MaxDates>
+	  <Token> </Token>
+	  <datatype>double</datatype>
+	  <NumberOfPracticePerDay>1</NumberOfPracticePerDay>
+	  <NumberOfTestSamples>397</NumberOfTestSamples>
+	  <NumberOfLearningSamples>397</NumberOfLearningSamples>
+	  <StepSize>1</StepSize>
+	  <Extention>.dat</Extention></mpg>
+	<mpg_cluster>
+	  <NumberOfInputDim>7</NumberOfInputDim>
+	  <NumberOfOutputDim>1</NumberOfOutputDim>
+	  <NumberOfDatasets>50</NumberOfDatasets>
+	  <LearningSampleHeadName>/home/yamauchi/work/datasets/mpg/testc</LearningSampleHeadName>
+	  <TestSampleFile>/home/yamauchi/work/datasets/mpg/testc0.dat</TestSampleFile>
+	  <MaxDates>397</MaxDates>
+	  <Token> </Token>
+	  <datatype>double</datatype>
+	  <NumberOfPracticePerDay>1</NumberOfPracticePerDay>
+	  <NumberOfTestSamples>397</NumberOfTestSamples>
+	  <NumberOfLearningSamples>397</NumberOfLearningSamples>
+	  <StepSize>1</StepSize>
+	  <Extention>.dat</Extention></mpg_cluster>
+	<cpu_performance>
+	  <NumberOfInputDim>6</NumberOfInputDim>
+	  <NumberOfOutputDim>1</NumberOfOutputDim>
+	  <NumberOfDatasets>50</NumberOfDatasets>
+	  <LearningSampleHeadName>/home/yamauchi/work/datasets/cpu-performance/test</LearningSampleHeadName>
+	  <TestSampleFile>/home/yamauchi/work/datasets/cpu-performance/test0.dat</TestSampleFile>
+	  <MaxDates>203</MaxDates>
+	  <Token> </Token>
+	  <datatype>double</datatype>
+	  <NumberOfPracticePerDay>1</NumberOfPracticePerDay>
+	  <NumberOfTestSamples>203</NumberOfTestSamples>
+	  <NumberOfLearningSamples>203</NumberOfLearningSamples>
+	  <StepSize>1</StepSize>
+	  <Extention>.dat</Extention></cpu_performance>
+	<cpu_performance_cluster>
+	  <NumberOfInputDim>6</NumberOfInputDim>
+	  <NumberOfOutputDim>1</NumberOfOutputDim>
+	  <NumberOfDatasets>50</NumberOfDatasets>
+	  <LearningSampleHeadName>/home/yamauchi/work/datasets/cpu-performance/testc</LearningSampleHeadName>
+	  <TestSampleFile>/home/yamauchi/work/datasets/cpu-performance/test0.dat</TestSampleFile>
+	  <MaxDates>203</MaxDates>
+	  <Token> </Token>
+	  <datatype>double</datatype>
+	  <NumberOfPracticePerDay>1</NumberOfPracticePerDay>
+	  <NumberOfTestSamples>203</NumberOfTestSamples>
+	  <NumberOfLearningSamples>203</NumberOfLearningSamples>
+	  <StepSize>1</StepSize>
+	  <Extention>.dat</Extention></cpu_performance_cluster>
+	<concrete>
+	  <NumberOfInputDim>8</NumberOfInputDim>
+	  <NumberOfOutputDim>1</NumberOfOutputDim>
+	  <NumberOfDatasets>50</NumberOfDatasets>
+	  <LearningSampleHeadName>/home/yamauchi/work/datasets/ConcreteData/test</LearningSampleHeadName>
+	  <TestSampleFile>/home/yamauchi/work/datasets/ConcreteData/validation-data.dat</TestSampleFile>
+	  <MaxDates>1030</MaxDates>
+	  <Token> </Token>
+	  <datatype>double</datatype>
+	  <NumberOfPracticePerDay>1</NumberOfPracticePerDay>
+	  <NumberOfTestSamples>1030</NumberOfTestSamples>
+	  <NumberOfLearningSamples>1030</NumberOfLearningSamples>
+	  <StepSize>1</StepSize>
+	  <Extention>.dat</Extention></concrete>
+	<concrete_cluster>
+	  <NumberOfInputDim>8</NumberOfInputDim>
+	  <NumberOfOutputDim>1</NumberOfOutputDim>
+	  <NumberOfDatasets>50</NumberOfDatasets>
+	  <LearningSampleHeadName>/home/yamauchi/work/datasets/ConcreteData/test</LearningSampleHeadName>
+	  <TestSampleFile>/home/yamauchi/work/datasets/ConcreteData/validation-data.dat</TestSampleFile>
+	  <MaxDates>1030</MaxDates>
+	  <Token> </Token>
+	  <datatype>double</datatype>
+	  <NumberOfPracticePerDay>1</NumberOfPracticePerDay>
+	  <NumberOfTestSamples>1030</NumberOfTestSamples>
+	  <NumberOfLearningSamples>1030</NumberOfLearningSamples>
+	  <StepSize>1</StepSize>
+	  <Extention>.dat</Extention></concrete_cluster>
+	<hearta1>
+	  <NumberOfInputDim>35</NumberOfInputDim>
+	  <NumberOfOutputDim>1</NumberOfOutputDim>
+	  <NumberOfDatasets>50</NumberOfDatasets>
+	  <LearningSampleHeadName>/home/yamauchi/work/datasets/hearta1/learning</LearningSampleHeadName>
+	  <TestSampleFile>/home/yamauchi/work/datasets/hearta1/learning0.dat</TestSampleFile>
+	  <MaxDates>460</MaxDates>
+	  <Token> </Token>
+	  <datatype>double</datatype>
+	  <NumberOfPracticePerDay>1</NumberOfPracticePerDay>
+	  <NumberOfTestSamples>460</NumberOfTestSamples>
+	  <NumberOfLearningSamples>460</NumberOfLearningSamples>
+	  <StepSize>1</StepSize>
+	  <Extention>.dat</Extention></hearta1>
+	<hearta1_cluster>
+	  <NumberOfInputDim>35</NumberOfInputDim>
+	  <NumberOfOutputDim>1</NumberOfOutputDim>
+	  <NumberOfDatasets>50</NumberOfDatasets>
+	  <LearningSampleHeadName>/home/yamauchi/work/datasets/hearta1/testc</LearningSampleHeadName>
+	  <TestSampleFile>/home/yamauchi/work/datasets/hearta1/learning0.dat</TestSampleFile>
+	  <MaxDates>460</MaxDates>
+	  <Token> </Token>
+	  <datatype>double</datatype>
+	  <NumberOfPracticePerDay>1</NumberOfPracticePerDay>
+	  <NumberOfTestSamples>460</NumberOfTestSamples>
+	  <NumberOfLearningSamples>460</NumberOfLearningSamples>
+	  <StepSize>1</StepSize>
+	  <Extention>.dat</Extention></hearta1_cluster>
+</parameter>

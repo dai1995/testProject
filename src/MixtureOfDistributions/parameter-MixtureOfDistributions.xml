@@ -1,0 +1,31 @@
+<?xl version="1.0"?>
+<parameter>
+<MixtureOfNormalDistribution>
+   <NumberOfInputs>6</NumberOfInputs>
+   <NumberOfOutputs>1</NumberOfOutputs>
+   <DefaultNumberOfModels>5</DefaultNumberOfModels>
+   <MaxNumberOfModels>7</MaxNumberOfModels>
+   <StopThreshold>0.001</StopThreshold>
+   <target_dimension>3</target_dimension>
+   <InitSigma>0.01</InitSigma>
+   <UseSMD>false</UseSMD>
+   <MinSigma>0.01</MinSigma>
+   <MatrixMode>DIAGONAL</MatrixMode>
+   <UpperLimitOfFreedom>500</UpperLimitOfFreedom></MixtureOfNormalDistribution>
+<multipledataload>
+   <NumberOfDatasets>1</NumberOfDatasets>
+   <LearningSampleHeadName>/home/yamauchi/work/datasets/cpu-performance/test</LearningSampleHeadName>
+   <TestSampleFile>/home/yamauchi/work/datasets/cpu-performance/validation-data.dat</TestSampleFile>
+   <MaxDates>1</MaxDates>
+   <Token> </Token>
+   <datatype>double</datatype>
+   <NumberOfPracticePerDay>100</NumberOfPracticePerDay>
+   <NumberOfTestSamples>400</NumberOfTestSamples>
+   <NumberOfLearningSamples>100</NumberOfLearningSamples>
+   <StepSize>1</StepSize>
+   <Extention>.dat</Extention>
+</multipledataload>
+<OutputFile>
+   <filename>/home/yamauchi/work/ext-inc-ll/MixtureOfDistributions/output</filename>
+</OutputFile>
+</parameter>

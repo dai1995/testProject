@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<parameter>
+	<RBFNN>
+		<NumberOfInputs>1</NumberOfInputs>
+		<NumberOfOutputs>1</NumberOfOutputs>
+		<NumberOfHiddenUnits>15</NumberOfHiddenUnits>
+		<KMeansChangeThreshold>0.00000001</KMeansChangeThreshold>
+		<MinSigma>0.1</MinSigma>
+		<MaxSigma>0.5</MaxSigma>
+		<InitSigma>2.5</InitSigma></RBFNN>
+	<dataload>
+	   <LearningSampleFile>/home/yamauchi/work/datasets/test/test0.dat</LearningSampleFile>
+   <TestSampleFile>/home/yamauchi/work/datasets/test/test1.dat</TestSampleFile>
+   <MaxDates>1</MaxDates>
+   <Token> </Token>
+   <datatype>double</datatype>
+   <NumberOfPracticePerDay>147</NumberOfPracticePerDay>
+   <NumberOfTestSamples>500</NumberOfTestSamples>
+   <NumberOfLearningSamples>147</NumberOfLearningSamples></dataload>
+	<ErrorOutput>
+		<filename>/home/yamauchi/work/ext-inc-ll/RBFNN/error</filename> </ErrorOutput>
+	<OutputFile>
+		<filename>/home/yamauchi/work/ext-inc-ll/RBFNN/output</filename> </OutputFile>
+	<WRBFNN>
+		<NumberOfInputs>1</NumberOfInputs>
+		<NumberOfOutputs>1</NumberOfOutputs>
+		<NumberOfHiddenUnits>100</NumberOfHiddenUnits>
+		<KMeansChangeThreshold>0.00000001</KMeansChangeThreshold>
+		<MinSigma>0.1</MinSigma>
+		<MaxSigma>2</MaxSigma>
+		<InitSigma>0.1</InitSigma></WRBFNN>
+	<WErrorOutput>
+		<filename>/home/yamauchi/work/ext-inc-ll/RBFNN/werror</filename></WErrorOutput>
+	<WOutputFile>
+		<filename>/home/yamauchi/work/ext-inc-ll/RBFNN/woutput</filename></WOutputFile></parameter>
