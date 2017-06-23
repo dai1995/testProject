@@ -29,7 +29,7 @@
 	  <NumberOfOutputDim>0</NumberOfOutputDim>
 	  <NumberOfDatasets>1</NumberOfDatasets>
 
-	  <LearningSampleHeadName>C:\pleiades\workspace\kato_Actor-CriticRS\src/ActorCritic_kato\sample</LearningSampleHeadName><TestSampleFile>C:\pleiades\workspace\kato_Actor-CriticRS\src/ActorCritic_kato\sample0.dat</TestSampleFile>
+	  <LearningSampleHeadName>/home/yamazaki/testProject/src/ActorCritic_kato/sample</LearningSampleHeadName><TestSampleFile>C:\pleiades\workspace\kato_Actor-CriticRS\src/ActorCritic_kato\sample0.dat</TestSampleFile>
 	  <MaxDates>36</MaxDates>
 	  <Token> </Token>
 	  <datatype>double</datatype>
@@ -44,7 +44,7 @@
 	  <NumberOfInputDim>6</NumberOfInputDim>
 	  <NumberOfOutputDim>0</NumberOfOutputDim>
 	  <NumberOfDatasets>1</NumberOfDatasets>
-	  <LearningSampleHeadName>C:\pleiades\workspace\kato_Actor-CriticRS\src\ActorCritic_kato\sample_kai</LearningSampleHeadName>
+	  <LearningSampleHeadName>/home/yamazaki/testProject/src/ActorCritic_kato/src\ActorCritic_kato\sample_kai</LearningSampleHeadName>
 	  <TestSampleFile>C:\pleiades\workspace\kato_Actor-CriticRS\src\ActorCritic_kato\sample_kai0.dat</TestSampleFile>
 	  <MaxDates>25</MaxDates>
 	  <Token> </Token>
@@ -60,7 +60,7 @@
 	  <NumberOfInputDim>6</NumberOfInputDim>
 	  <NumberOfOutputDim>0</NumberOfOutputDim>
 	  <NumberOfDatasets>1</NumberOfDatasets>
-	  <LearningSampleHeadName>C:\pleiades\workspace\kato_Actor-CriticRS\src\ActorCritic_kato\sampleMC</LearningSampleHeadName>
+	  <LearningSampleHeadName>/home/yamazaki/testProject/src/ActorCritic_kato/src\ActorCritic_kato\sampleMC</LearningSampleHeadName>
 	  <TestSampleFile>C:\pleiades\workspace\kato_Actor-CriticRS\src\ActorCritic_kato\sampleMC0.dat</TestSampleFile>
 	  <MaxDates>285</MaxDates>
 	  <Token> </Token>
@@ -76,8 +76,8 @@
 	  <NumberOfInputDim>6</NumberOfInputDim>
 	  <NumberOfOutputDim>0</NumberOfOutputDim>
 	  <NumberOfDatasets>1</NumberOfDatasets>
-	  <LearningSampleHeadName>C: \daisaku\log\learningsample\ActorSample</LearningSampleHeadName>
-	  <TestSampleFile>C: \daisaku\log\learningsample\ActorSample0.dat</TestSampleFile>
+	  <LearningSampleHeadName>/home/yamazaki/log\learningsample\ActorSample</LearningSampleHeadName>
+	  <TestSampleFile>/home/yamazaki/log\learningsample\ActorSample0.dat</TestSampleFile>
 	  <MaxDates>50</MaxDates>
 	  <Token> </Token>
 	  <datatype>double</datatype>
@@ -92,8 +92,8 @@
 	  <NumberOfInputDim>3</NumberOfInputDim>
 	  <NumberOfOutputDim>0</NumberOfOutputDim>
 	  <NumberOfDatasets>1</NumberOfDatasets>
-	  <LearningSampleHeadName>C: \daisaku\log\learningsample\CriticSample</LearningSampleHeadName>
-	  <TestSampleFile>C: \daisaku\log\learningsample\CriticSample0.dat</TestSampleFile>
+	  <LearningSampleHeadName>/home/yamazaki/log\learningsample\CriticSample</LearningSampleHeadName>
+	  <TestSampleFile>/home/yamazaki/log\learningsample\CriticSample0.dat</TestSampleFile>
 	  <MaxDates>50</MaxDates>
 	  <Token> </Token>
 	  <datatype>double</datatype>
@@ -129,39 +129,39 @@
 	</ValueFunction_inte>
 
 	<ActorSample>
-		<filename>C:\daisaku\log\learningsample\ActorSample</filename>
+		<filename>/home/yamazaki/log\learningsample\ActorSample</filename>
 	</ActorSample>
 
 	<CriticSample>
-		<filename>C:\daisaku\log\learningsample\CriticSample</filename>
+		<filename>/home/yamazaki/log\learningsample\CriticSample</filename>
 	</CriticSample>
 
 	<rewardaveoutput_inte>
-		<filename>C:\daisaku\log\rewardaveoutput\rewardaveoutput_inte</filename>
+		<filename>/home/yamazaki/log\rewardaveoutput\rewardaveoutput_inte</filename>
 	</rewardaveoutput_inte>
 
 	<logoutput>
-	    <filename>C:\daisaku\log\AgentPoint\AgentPoint</filename>
+	    <filename>/home/yamazaki/log\AgentPoint\AgentPoint</filename>
 	</logoutput>
 
 	<initoutput>
-	    <filename>C:\daisaku\log\AgentPoint\init_Point</filename>
+	    <filename>/home/yamazaki/log\AgentPoint\init_Point</filename>
 	</initoutput>
 
 	<rewardoutput>
-	    <filename>C:\daisaku\log\reward\reward</filename>
+	    <filename>/home/yamazaki/log\reward\reward</filename>
 	</rewardoutput>
 
 	<rewardaveoutput>
-	    <filename>C:\daisaku\log\reward\rewardave</filename>
+	    <filename>/home/yamazaki/log\reward\rewardave</filename>
 	</rewardaveoutput>
 
 	<karneloutput>
-	    <filename>C:\daisaku\log\kernel\kernel</filename>
+	    <filename>/home/yamazaki/log\kernel\kernel</filename>
 	</karneloutput>
 
 	<LGRNNParameters>
-	    <filename>C:\daisaku\log\result\lgrnnparameter.dat</filename>
+	    <filename>/home/yamazaki/log\result\lgrnnparameter.dat</filename>
 	</LGRNNParameters>
 
 	<VirtualData>
